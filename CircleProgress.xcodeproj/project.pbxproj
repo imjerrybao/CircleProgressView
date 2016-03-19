@@ -13,6 +13,7 @@
 		18F81FFE1C9A41740023DD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F81FFC1C9A41740023DD56 /* Main.storyboard */; };
 		18F820001C9A41740023DD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F81FFF1C9A41740023DD56 /* Assets.xcassets */; };
 		18F820031C9A41740023DD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F820011C9A41740023DD56 /* LaunchScreen.storyboard */; };
+		18F8200C1C9A42A30023DD56 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8200B1C9A42A30023DD56 /* CircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18F81FFF1C9A41740023DD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F820021C9A41740023DD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F820041C9A41740023DD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8200A1C9A42A30023DD56 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		18F8200B1C9A42A30023DD56 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				18F81FF71C9A41740023DD56 /* AppDelegate.m */,
 				18F81FF91C9A41740023DD56 /* ViewController.h */,
 				18F81FFA1C9A41740023DD56 /* ViewController.m */,
+				18F8200A1C9A42A30023DD56 /* CircleProgressView.h */,
+				18F8200B1C9A42A30023DD56 /* CircleProgressView.m */,
 				18F81FFC1C9A41740023DD56 /* Main.storyboard */,
 				18F81FFF1C9A41740023DD56 /* Assets.xcassets */,
 				18F820011C9A41740023DD56 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F8200C1C9A42A30023DD56 /* CircleProgressView.m in Sources */,
 				18F81FFB1C9A41740023DD56 /* ViewController.m in Sources */,
 				18F81FF81C9A41740023DD56 /* AppDelegate.m in Sources */,
 				18F81FF51C9A41740023DD56 /* main.m in Sources */,
@@ -262,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircleProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.CircleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircleProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.CircleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
